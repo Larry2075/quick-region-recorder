@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "快捷录屏",
+  "description": "在网页右键菜单中打开 Mac 快捷录屏的区域选择。",
+  "version": "1.0.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA51fol2BgGqGSGTqk/V4mmfSbM/3clJjFtmO4BEwllrvPqSCGIKTLBoICWHABXAr3tsGezS8WP/9xKdD1ETv5hjkuFThBm3FHqyThSJL9GEpYqTw75caBVj98ZyIjMPyf8snrUEbys5JyqiJYRc39g+PcSQJ0HF+xx5BD+REexYA69gaTNv+T/LwrO1F9lbGj4VlM8vjSZB3dINMowR+B9tO3+9ssTg2LoFipZOc6AY+4kqtC60D311+2whx67Cf7wYW+lxUhWJmTPAqCOE/0HMKDrl2GZ0a78tRekCZ5T0uL9duDUqKlxj42bHQEWbMYA+Csekc4A3ntJD8H4QWM2wIDAQAB",
+  "permissions": ["contextMenus", "nativeMessaging"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
